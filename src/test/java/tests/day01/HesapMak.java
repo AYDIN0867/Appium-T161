@@ -46,8 +46,19 @@ public class HesapMak {
 
 //uygulamanın açıldıgı dogrulanır
 
+        Assert.assertTrue(driver.findElementById("com.google.android.calculator:id/op_sqrt").isDisplayed());
 
+//400 un 3 katının 1200 oldgunu hesap makinesinden dogrulayın
 
+ driver.findElementByAccessibilityId("4").click();
+ driver.findElementByAccessibilityId("0").click();
+ driver.findElementByAccessibilityId("0").click();
+ driver.findElementByAccessibilityId("multiply").click();
+ driver.findElementByAccessibilityId("3").click();
+
+ int  expectedSonuc=1200;
+ String actualSonuc=driver.findElementById("com.google.android.calculator:id/result_preview").getText();
+ Assert.assertEquals(expectedSonuc,Integer.parseInt(actualSonuc));
 
 
     }
