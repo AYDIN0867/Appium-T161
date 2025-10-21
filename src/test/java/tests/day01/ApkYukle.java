@@ -29,7 +29,8 @@ public class ApkYukle {
         cap.setCapability(MobileCapabilityType.PLATFORM_VERSION,"10.0");
        cap.setCapability(MobileCapabilityType.AUTOMATION_NAME,"UiAutomator2");
        // cap.setCapability(MobileCapabilityType.APP,"C:\\Users\\Hp\\IdeaProjects\\Team161_Appium\\Apss\\Calculator_8.4 (503542421)_Apkpure (3).apk");
-        cap.setCapability(MobileCapabilityType.APP,"C:\\Users\\Hp\\IdeaProjects\\Team161_Appium\\Apss\\Apk Bilgisi_2.3.4_apkcombo.com.apk");
+      //  cap.setCapability(MobileCapabilityType.APP,"C:\\Users\\Hp\\IdeaProjects\\Team161_Appium\\Apss\\Apk Bilgisi_2.3.4_apkcombo.com.apk");
+        cap.setCapability(MobileCapabilityType.APP,"C:\\Users\\Hp\\IdeaProjects\\Team161_Appium\\Apss\\arabam-com-5-4-1.apk");
 
 ////27 satırdaki desiredcap i test yapacağımız uygulamayı telefona yüklemek için yaptık...
 //yüklü ise açer yüklü değilse yükler çok güzel bir özellik yani süper...
